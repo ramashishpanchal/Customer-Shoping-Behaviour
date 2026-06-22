@@ -46,13 +46,13 @@ Data preparation and cleaning steps performed:
 
 ## 🗄️ Data Analysis (SQL — MySQL)
 
-Structured analysis was performed in PostgreSQL to answer key business questions:
+Structured analysis was performed in MySQL to answer key business questions:
 
-1. **Revenue by Gender** — Male customers generated significantly higher total revenue (₹157,890) than female customers (₹75,191).
+1. **Revenue by Gender** — Male customers generated significantly higher total revenue ($157,890) than female customers ($75,191).
 2. **High-Spending Discount Users** — Identified 839 customers who used discounts but still spent above the average purchase amount.
 3. **Top 5 Products by Rating** — Gloves (3.86), Sandals (3.84), Boots (3.82), Hat (3.80), Skirt (3.78).
-4. **Shipping Type Comparison** — Express shipping had a slightly higher average purchase amount (₹60.48) than Standard (₹58.46).
-5. **Subscribers vs. Non-Subscribers** — Non-subscribers (2,847 customers) generated far more total revenue (₹170,436) than subscribers (1,053 customers, ₹62,645), though average spend was similar (~₹59.5–59.9).
+4. **Shipping Type Comparison** — Express shipping had a slightly higher average purchase amount ($60.48) than Standard ($58.46).
+5. **Subscribers vs. Non-Subscribers** — Non-subscribers (2,847 customers) generated far more total revenue ($170,436) than subscribers (1,053 customers, $62,645), though average spend was similar (~$59.5–59.9).
 6. **Discount-Dependent Products** — Hat (50.0%), Sneakers (49.66%), Coat (49.07%), Sweater (48.17%), Pants (47.37%) had the highest share of discounted purchases.
 7. **Customer Segmentation** — Customers classified into Loyal (3,116), Returning (701), and New (83) segments.
 8. **Top 3 Products per Category:**
@@ -61,7 +61,7 @@ Structured analysis was performed in PostgreSQL to answer key business questions
    - Footwear: Sandals, Shoes, Sneakers
    - Outerwear: Jacket, Coat
 9. **Repeat Buyers & Subscriptions** — Of 2,518 non-subscribed customers and 958 subscribed customers, repeat buying (>5 purchases) did not clearly correlate with higher subscription rates.
-10. **Revenue by Age Group** — Young Adult (₹62,143) > Middle-aged (₹59,197) > Adult (₹55,978) > Senior (₹55,763).
+10. **Revenue by Age Group** — Young Adult ($62,143) > Middle-aged ($59,197) > Adult ($55,978) > Senior ($55,763).
 
 ---
 
@@ -69,7 +69,7 @@ Structured analysis was performed in PostgreSQL to answer key business questions
 
 An interactive **Customer Behavior Dashboard** was built in Power BI featuring:
 
-- **KPI Cards:** 3.9K customers, ₹59.76 average purchase amount, 3.75 average review rating
+- **KPI Cards:** 3.9K customers, $59.76 average purchase amount, 3.75 average review rating
 - **Filters/Slicers:** Subscription Status, Gender, Category, Shipping Type
 - **Visuals:**
   - % of customers by subscription status (donut chart)
@@ -95,7 +95,6 @@ An interactive **Customer Behavior Dashboard** was built in Power BI featuring:
 | Tool | Purpose |
 |---|---|
 | Python (pandas) | Data cleaning, feature engineering |
-| MySQL | Data storage / integration layer |
 | MySQL | Business query analysis |
 | Power BI | Dashboard & data visualization |
 
