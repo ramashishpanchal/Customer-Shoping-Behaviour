@@ -40,22 +40,11 @@ Data preparation and cleaning steps performed:
 - **Data Consistency Check:** Verified that `discount_applied` and `promo_code_used` were redundant; dropped `promo_code_used`.
 - **Database Integration:** Connected the Python script to MySQL and loaded the cleaned DataFrame into the database for SQL analysis.
 
-### Summary Statistics
 
-| Metric | Customer ID | Age | Purchase Amount (USD) | Review Rating | Previous Purchases |
-|---|---|---|---|---|---|
-| count | 3900 | 3900 | 3900 | 3863 | 3900 |
-| mean | 1950.5 | 44.07 | 59.76 | 3.75 | 25.35 |
-| std | 1125.98 | 15.21 | 23.69 | 0.72 | 14.45 |
-| min | 1 | 18 | 20 | 2.5 | 1 |
-| 25% | 975.75 | 31 | 39 | 3.1 | 13 |
-| 50% | 1950.5 | 44 | 60 | 3.8 | 25 |
-| 75% | 2925.25 | 57 | 81 | 4.4 | 38 |
-| max | 3900 | 70 | 100 | 5.0 | 50 |
 
 ---
 
-## 🗄️ Data Analysis (SQL — PostgreSQL)
+## 🗄️ Data Analysis (SQL — MySQL)
 
 Structured analysis was performed in PostgreSQL to answer key business questions:
 
